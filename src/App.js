@@ -4,7 +4,6 @@ import Home from './Home';
 import Login from './Login';
 import Register from './Register';
 import { ToastContainer } from 'react-toastify';
-// import Appheader from './Appheader';
 import Customer from './Customer';
 import "bootstrap/dist/css/bootstrap.min.css"
 
@@ -33,7 +32,6 @@ function App() {
     <div className="App">
       <ToastContainer theme='colored' position='top-center'></ToastContainer>
       <BrowserRouter>
-      {/* <Appheader></Appheader> */}
       <Routes>
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/' element={<Login/>}></Route>

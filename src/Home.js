@@ -7,7 +7,7 @@ const Home = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        // Fetch data from the API endpoint
+        
         axios.get('http://localhost:3000/user/')
             .then(res => {
                 setData(res.data);
